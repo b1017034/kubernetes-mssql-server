@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mssql
+type: Opaque
+data:
+  SA_PASSWORD: MyC0m9l&xP@ssw0rd # replace complicated password
