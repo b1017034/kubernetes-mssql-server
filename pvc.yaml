@@ -16,6 +16,7 @@ apiVersion: v1
 metadata:
   name: mssql-data
 spec:
+  storageClassName: manual
   accessModes:
   - ReadWriteOnce
   resources:
