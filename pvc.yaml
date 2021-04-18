@@ -2,6 +2,8 @@ kind: PersistentVolume
 apiVersion: v1
 metadata:
   name: mssql-data-path
+  labels:
+    type: local
 spec:
   storageClassName: manual
   capacity:
